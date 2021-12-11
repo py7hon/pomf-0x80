@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="generator" content="Pomf(0x80)">
+      <meta name="Description" content="128">
+      <title>0x80</title>
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="/pomf.css">
+      <script src="/pomf.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="jumbotron">
+            <h1>0x80</h1>
+            <p class="lead">Free file upload! Max upload size is 128&nbsp;M, read the <a href="faq.html"><abbr title="Frequently asked questions">FAQ</abbr></a></p>
+             <form id="upload-form" enctype="multipart/form-data" method="post" action="upload.php" class="js">
+
+		 <button id="upload-btn" class="btn" type="button">Select or drop file(s)</button><input type="file" id="upload-input" name="files" multiple="" data-max-size="128MiB"><input type="submit" value="Submit"> 
+
+			</form>
+            <p class="lead"></p>
+            <ul id="upload-filelist"></ul>
+         </div>
+         <p class="alert alert-success"><strong>IPFS</strong> link ? try upload with <a href="/docs.html">API</a>.</p>
+         <nav>
+         <p class="alert alert-error"><strong>Warning</strong> all file stored <strong>Permanently</strong> we recommend not uploading files that are illegal.</p>
+         <p class="alert alert-info"><strong>0x80 is free to use, but our hosting costs are far from it</strong> — donations are what keep 0x80 alive, free, and fast.<span class="donate-btns"><a href="https://paypal.me/iqbalrifai">Donate</a></span></p>
+         <nav>
+            <ul>
+               <li><a href="/">0x80</a></li>
+               <li><a href="docs.html">Docs</a></li>
+               <li><a href="faq.html">FAQ</a></li>
+               <li><a href="https://github.com/python/pomf-0x80">Git</a></li>
+            </ul>
+         </nav>
+      </div>
+   </body>
+</html>

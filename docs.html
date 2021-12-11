@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Pomf(0x80)" />
+    <meta name="Description" content="128" />
+    <title>0x80 &middot; Docs</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="pomf.css" />
+</head>
+
+<body>
+    <div class="container">
+        <article>
+            <div class="jumbotron">
+                <h1>Docs</h1>
+            </div>
+            <h1 style="font-family: 'Helvetica';">API</h1><hr>
+            <p>To upload using curl or make a tool you can post using:</p>
+            <ul>
+            <li><p><code>curl -i -F files=@yourfile.jpeg https://0x80.eu.org/upload.php</code> (JSON Response)</p></li>
+            <li><p><code>curl -i -F files=@yourfile.jpeg https://0x80.eu.org/upload.php?output=text</code> (Text Response)</p></li>
+            <li><p><code>curl -i -F files=@yourfile.jpeg https://0x80.eu.org/upload.php?output=html</code> (HTML Response)</p></li>
+            </ul>
+            <p>Example response API:</p>
+            <p><pre>
+            {
+             "success" : true,
+             "name" : "yourfile.jpeg",
+             "files" : [
+              "https://a.0x80.eu.org/W93jHr.jpeg",
+              "https://ipfs.io/ipfs/bafkreie2xbsrwpz2pmciax2t6gdk3omnlhlklu..."
+             ]
+            }
+				     </pre></p>
+        </article>
+        <nav>
+            <ul>
+                <li><a href="/">0x80</a></li>
+                <li><a href="docs.html">Docs</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="https://github.com/python/pomf-0x80">Git</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
