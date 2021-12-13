@@ -1,0 +1,8 @@
+{
+  "Version": "12.4.1",
+  "RequestMethod": "POST",
+  "RequestURL": "http://0x80.eu.org/upload.php",
+  "Body": "MultipartFormData",
+  "FileFormName": "files",
+  "URL": "$json:files[0]$"
+}
