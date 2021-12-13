@@ -1,0 +1,7 @@
+{
+  "Name": "0x80.eu.org",
+  "RequestType": "POST",
+  "RequestURL": "https://0x80.eu.org/upload.php?output=json",
+  "FileFormName": "files",
+  "URL": "$json:files[0]$"
+}
